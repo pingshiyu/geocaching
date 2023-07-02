@@ -35,5 +35,5 @@ def triangle_sides(abc: np.array) -> float:
 # c1 = lambda a, b: triangle(a, b, 1)
 
 # solve for a == 1, b == 1, or c == 1
-solution = least_squares(triangle_sides, np.array([2, 2, 2]), bounds=((1, 1, 1), (10, 10, 10)), gtol=None, ftol=None, xtol=1e-10)
-print(solution)
+# solution = least_squares(triangle_sides, np.array([2, 2, 2]), bounds=((1, 1, 1), (10, 10, 10)), gtol=None, ftol=None, xtol=1e-10)
+# print(solution)
